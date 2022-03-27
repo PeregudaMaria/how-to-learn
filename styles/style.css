@@ -15,8 +15,8 @@
 }
 
 .logo {
-  position: absolute; 
-  margin-top: 30px; 
+  position: absolute;
+  margin-top: 30px;
   margin-left: 64px;
 }
 
@@ -241,7 +241,6 @@ a {
   width: 200px;
   color: #ffffff;
   margin-top: 80px;
-  width: 200px;
   z-index: 1;
 }
 
