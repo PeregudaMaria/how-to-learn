@@ -4,20 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./styles/normadivze.css"/>
+  <link rel="stylesheet" href="./styles/normalize.css"/>
   <link rel="stylesheet" href="./styles/style.css"/>
 </head>
 <body>
   <div class="page">
     <header class="header">
-      <div class="logo logo_place_header">
-        <img src="./images/logo_place_header.svg" alt="Логотип ЯндексПрактикум"> 
-      </div>
-      <h2 class="header__title">Научиться учиться </h2>
+        <a href="#"><img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип ЯндексПрактикум"></a>
+      <h1 class="header__title">Научиться учиться </h1>
       <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?<a class="header__link" href="#"> Узнать &rarr;</a></p>
-      <div class="header__main-illustration">
-      <img src="./images/header-image.png" width="765" height="608" alt="Картина Опять двойка">
-      </div>
+      <img class="header__main-illustration" src="./images/header-image.png" alt="Картина Опять двойка">
       <div class="header__square-pic"></div>
     </header>
 
@@ -88,9 +84,7 @@
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
         <a class="feynman__link" href="#">Подробнее &rarr;</a>
-        <div class="feynman__pic">
-        <img src="./images/feynman.png" width="867" height="637" alt="Фейнман">
-      </div>
+        <img class="feynman__pic" src="./images/feynman.png" alt="Фейнман">
       </section>
 
       <section class="kaufman">
@@ -140,9 +134,7 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <div class="kaufman__triangle">
-          <img src="./images/kaufman-triangle.svg"  width="877" height="877" alt="Cиний треугольник">
-        </div>
+        <div class="kaufman__triangle"></div>
       </section>
 
     </main>
@@ -151,23 +143,20 @@
       <div class="footer__columns">
 
         <div class="footer__column footer__column_content_copyright">
-          <div class="logo logo_place_footer">
-            <img src="./images/logo_place_footer.svg" width="183" height="35" alt="Логотип ЯндексПрактикум"> 
-          </div>
+            <a  href="#"><img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Логотип ЯндексПрактикум"></a>
           <p class="footer__author"> &copy;2022. Maria Andreeva</p>
         </div>
 
-        <div class="footer__column footer__column_content_info">
-          <div class="footer__column-heading">О Практикуме
+        <nav class="footer__column footer__column_content_info">
+          <h3 class="footer__column-heading">О Практикуме</h3>
           <ul class="footer__column-links">
         <li> <a class="footer__column-link" href="#">Главная</a></li>
         <li> <a class="footer__column-link" href="#">Концепция</a></li>
         <li> <a class="footer__column-link" href="#">Наставники</a></li>
           </ul>
-      </div>
-      </div>
-        <div class="footer__column footer__column_content_social">
-          <div class="footer__column-heading">Соцсети
+    </nav>
+        <nav class="footer__column footer__column_content_social">
+          <h3 class="footer__column-heading">Соцсети</h3>
           <ul class="footer__column-links">
             <li>
               <a class="footer__column-link" href="#">
@@ -182,8 +171,7 @@
               <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="Инстаграм">Instagram</a>
             </li>
           </ul>
-        </div>
-        </div>
+      </nav>
 
       </div>
     </footer>
