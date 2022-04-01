@@ -15,7 +15,6 @@
 }
 
 .logo {
-  height: 32px;
   width: 183px;
 }
 
@@ -23,6 +22,7 @@
   position: absolute;
   top: 30px;
   left: 64px;
+  height: 32px;
 }
 
 .header__title {
@@ -51,6 +51,7 @@
 
 .header__link {
   color:#2f80ed;
+  text-decoration: none;
 }
 
 .header__main-illustration { 
@@ -95,6 +96,7 @@
   }
 
 .two-columns__main-text {
+  display: flex;
   flex-direction: column;
   width: 80%;
   min-width: 784px; 
@@ -104,6 +106,8 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin: 30px;
+  margin-bottom: 0px;
 }
 
 .two-columns__paragraph:first-of-type {
@@ -249,6 +253,7 @@
   width: 200px;
   color: #ffffff;
   z-index: 1;
+  margin-top: 80px;
 }
 
 .table__heading_theme_dark {
@@ -272,7 +277,7 @@
   top: 0;
   z-index: 0;
   background-image: url(/images/kaufman-triangle.svg);
-  background-size: contain;
+  background-size: cover;
 }
 
 .footer {
@@ -283,7 +288,6 @@
 }
 
 .logo_place_footer {
-  width: 183px;
   height: 35px; 
 }
 
@@ -315,6 +319,8 @@
 }
 
 .footer__column-heading {
+  margin: 0;
+  padding: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
