@@ -34,7 +34,7 @@
   font-size: 102px;
   font-weight: bold;
   z-index: 2;
-} 
+}
 
 .header__subtitle {
   position: absolute;
@@ -50,11 +50,11 @@
 }
 
 .header__link {
-  color:#2f80ed;
+  color: #2f80ed;
   text-decoration: none;
 }
 
-.header__main-illustration { 
+.header__main-illustration {
   position: absolute;
   width: 765px;
   height: 608px;
@@ -63,16 +63,16 @@
   z-index: 1;
   background-size: cover;
 }
-  
+
 .header__square-pic {
   position: absolute;
   height: 568px;
   width: 568px;
-  background-color:#2f80ed;
+  background-color: #2f80ed;
   top: 64px;
   right: 0px;
 }
- 
+
 .description {
   display: flex;
   justify-content: center;
@@ -92,14 +92,14 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  color:  #2f80ed;
-  }
+  color: #2f80ed;
+}
 
 .two-columns__main-text {
   display: flex;
   flex-direction: column;
   width: 80%;
-  min-width: 784px; 
+  min-width: 784px;
 }
 
 .two-columns__paragraph {
@@ -114,7 +114,7 @@
   margin-top: 0;
 }
 
-.two-columns__span-accent { 
+.two-columns__span-accent {
   font-weight: bold;
 }
 
@@ -124,9 +124,9 @@
   align-items: center;
   margin: 100px auto 100px auto;
   width: 1100px;
-  }
+}
 
-.section-title { 
+.section-title {
   margin: 0;
   padding: 0;
   text-align: center;
@@ -168,7 +168,7 @@
   font-size: 24px;
   font-weight: bold;
   margin-top: 0;
-  margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
 
 .table__text {
@@ -187,7 +187,7 @@
   position: relative;
   flex-direction: column;
   padding-top: 100px;
-  box-sizing:border-box;
+  box-sizing: border-box;
   min-height: 890px;
   background-color: #F2F2F2;
 }
@@ -207,7 +207,7 @@
   font-size: 36px;
   font-weight: normal;
   margin: 0 auto;
-  z-index: 2; 
+  z-index: 2;
 }
 
 .feynman__link {
@@ -218,10 +218,10 @@
   right: 48px;
   top: 50%;
   text-decoration: none;
-  color:#2f80ed;
+  color: #2f80ed;
 }
 
-.feynman__pic  {
+.feynman__pic {
   position: absolute;
   width: 867px;
   height: 637px;
@@ -288,14 +288,14 @@
 }
 
 .logo_place_footer {
-  height: 35px; 
+  height: 35px;
 }
 
 .footer__column {
-	display: flex;
-	position: relative;
-	flex-direction: column;
- }
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
 
 .footer__columns {
   display: flex;
@@ -324,7 +324,7 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
-  color: white; 
+  color: white;
 }
 
 .footer__column-links {
@@ -347,5 +347,3 @@
   color: white;
   margin-right: 10px;
 }
-
-
